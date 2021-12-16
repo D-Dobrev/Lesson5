@@ -1,0 +1,40 @@
+body {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    transform: translate(-50%, -50%);
+}
+div {
+    overflow: hidden;
+    margin: 0px;
+}
+.box {
+     width: 85px;
+     height: 85px;
+     border: 1px solid black;
+     margin: -2px;
+     display: inline-block;
+}
+.black {
+    background-color: black;
+}
+.white {
+    background-color: #af906a;
+}
+h2 {
+   text-align: center;
+   padding-top: 41%;
+   padding-bottom: 41%;
+   margin: 0px;
+
+}
+.alphanumerical {
+    width: 85px;
+    border: 1px;
+    
+}
+.color:hover {
+background-color: red;
+}
